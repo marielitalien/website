@@ -1,3 +1,5 @@
+
+/* General visual stuff */
 body {
   font-family: sans-serif;
 }
@@ -20,4 +22,16 @@ body {
 
 img {
   max-width: 400px;
+}
+
+/* Styling the "Error" message in the middle of the screen */
+.Error {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/unhappy.gif");
+
 }
